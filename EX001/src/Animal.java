@@ -17,11 +17,13 @@ public class Animal {
         size = a;
     }
 
-    public boolean isBigger(Dog d) {
-        if (this.getSize() > d.getSize()) {
+    public boolean isBigger(Animal ani) {
+        if (this.getSize() > ani.getSize()) {
             return true;
         } else {
             return false;
         }
+    }
+    public void makeNoise() {
     }
 }
